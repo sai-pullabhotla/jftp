@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Making an SSL Connection</title>
+</head>
+<body>
+	<h1>Making an SSL Connection</h1>
+	<p>To make an SSL connection with an FTP site:</p>
+	<ul>
+		<li>Make sure that the FTP site you are about to connect to
+			supports secured FTP or FTP over SSL. If you are unsure, contact the
+			server's administrator.</li>
+		<li>Follow the instructions given in the topic titled, <a
+			href="../connect/index.html">Connecting to an FTP Site</a>
+		</li>
+		<li>Make sure to enable SSL by selecting any one of the following
+			options in the <code>Security</code> tab of <code>Connect</code>
+			dialog.
+			<ul>
+				<li><code>Use SSL If Available</code></li>
+				<li><code>Use Explicit SSL</code></li>
+				<li><code>Use Implicit SSL</code></li>
+			</ul> If you select the option <code>Do Not Use SSL</code>, SSL will be
+			turned off.
+		</li>
+	</ul>
+	<p>
+		Once you click on the
+		<code>Connect</code>
+		button, JFTP connects to the FTP site and negotiates for an SSL
+		connection. If the server supports SSL, the server sends a digital
+		certificate to JFTP. The digital certificate contains the identity of
+		the server. If the certificate exists in your list of trusted
+		certificates, JFTP accepts the connection and all data transmitted
+		after this point will be encrypted. If the digital certificate does
+		not exist in your list of trusted certificates, a
+		<code>Security Warning</code>
+		dialog will be displayed. The
+		<code>Security Warning Dialog</code>
+		allows you to choose whether or not you want to work with the FTP
+		site. You may optionally install the certificate in to your list of
+		trusted certificates. For more information on this, please read the
+		topic <a href="installCertificate.html">Installing a Certificate</a>.
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</body>
+</html>

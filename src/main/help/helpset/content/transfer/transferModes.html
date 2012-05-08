@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Transfer Modes</title>
+</head>
+<body>
+	<h1>Transfer Modes</h1>
+	<p>
+		Using JFTP, you can transfer files in
+		<code>ASCII</code>
+		,
+		<code>Binary/Image</code>
+		or
+		<code>Auto-Detect</code>
+		mode. Failing to transfer a file in correct mode may corrupt the file
+		and it may become useless on the target system.
+	</p>
+	<h2>ASCII Mode</h2>
+	<p>
+		All files that contain plain text must be transferred in
+		<code>ASCII</code>
+		mode. Examples of such files would be TXT, HTML, JSP, or XML files.
+	</p>
+	<h2>Binary/Image) Mode</h2>
+	<p>
+		All files that contain binary data must be transferred in
+		<code>Binary/Image</code>
+		mode. This would include EXE, BMP, GIF, JPG or ZIP files.
+	</p>
+	<h2>Auto-Detect Mode</h2>
+	<p>
+		The
+		<code>Auto-Detect</code>
+		(automatic detection) mode becomes handy when you have to transfer
+		multiple files and directories (a few hundreds or even thousands). In
+		this case, separating the files that are to be transferred in ASCII
+		mode and Binary mode becomes a real pain. To overcome this problem,
+		JFTP provides a place where you can specify what transfer mode to use
+		for what files. (<a href="../preferences/transferModes.html">Click
+			here to learn how to configure transfer modes based on the file's
+			extension</a>). When you set the transfer mode to
+		<code>Auto-Detect</code>
+		, JFTP automatically determines the transfer mode for a given file and
+		transfers the file in correct mode, thus saving time and reducing the
+		chances of corrupting the files.
+	</p>
+	<p>
+		When you start JFTP, the transfer type is always set to
+		<code>Auto-Detect</code>
+		. To change the transfer mode to ASCII, select
+		<code>Transfer Mode -&gt; ASCII</code>
+		menu item from the menu bar. To change the transfer mode to
+		<code>Binary/Image</code>
+		, select
+		<code>Transfer Mode -&gt; Binary/Image</code>
+		menu item from the menu bar.
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</body>
+</html>

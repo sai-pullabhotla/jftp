@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Changing Working Directory</title>
+</head>
+<body>
+	<h1>Changing Working Directory</h1>
+	<p>To change the working directory on the remote system, do any one
+		of the following:</p>
+	<ul>
+		<li>Select <code>Remote File -&gt; Change Directory...</code>
+			menu from the menu bar
+		</li>
+		<li>Click on the <img src="../images/changeRemoteDirectory16.gif"
+			width="16" height="16">&nbsp;&nbsp;button in the tool bar
+		</li>
+		<li>Right click any where in the <a
+			href="../userInterface/remotePane.html">remote pane</a>, and select <code>Change
+				Directory...</code> from the context menu
+		</li>
+	</ul>
+	<p>
+		When you do any of the above actions, a new dialog titled,
+		<code>Change Remote Working Directory</code>
+		will be displayed.
+	</p>
+	<p>
+		<code>Directory Name</code>
+		<br> Specify directory that you would like to set as new working
+		directory.
+	</p>
+	<p>
+		<code>Change</code>
+		<br> Clicking this button will set (or try to set) the working
+		directory to the one you have specified and closes the
+		<code>Change Remote Working Directory</code>
+		dialog.
+	</p>
+	<p>
+		<code>Cancel</code>
+		<br> Clicking this button discards your input and closes the
+		<code>Change Remote Working Directory</code>
+		dialog.
+	</p>
+	<p>
+		<code>Help</code>
+		<br> Clicking this button displays this help topic.
+	</p>
+	<p class="tip">
+		<img src="../images/tip32.gif" border="0" width="32" height="32"
+			align="bottom" alt="Tip"> In the
+		<code>Directory Name</code>
+		field, you may enter <b>absolute </b>or <b>relative</b> (to the
+		current working directory) path names. Below are a few examples
+		assuming your current working directory is set to
+		<code>/wd</code>
+		. <br> <br> <b>Example 1</b> <br> Entering
+		<code>sampleDir</code>
+		would set the working directory to
+		<code>/wd/sampleDir</code>
+		. The directory
+		<code>sampleDir</code>
+		must exist in order for this to work. <br> <br> <b>Example
+			2</b> <br> Entering
+		<code>subdir/sampleDir</code>
+		would change the working directory to
+		<code>/wd/subDir/sampleDir</code>
+		. All the directories must exist. <br> <br> <b>Example 3</b>
+		<br> Entering
+		<code>/temp/sampleDir</code>
+		would change the working directory to
+		<code>/temp/sampleDir</code>
+		.
+	</p>
+	<p>&nbsp;</p>
+</body>
+</html>

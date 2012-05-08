@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Security</title>
+</head>
+<body>
+	<h1>Security</h1>
+	<p>
+		To view/change your global security preferences, open the
+		<code>Preferences</code>
+		dialog by selecting
+		<code>Tools -&gt; Preferences </code>
+		(
+		<code>JFTP -&gt; Preferences</code>
+		on Mac OS X) menu item from the menu bar. Click on the
+		<code>Connection Settings -&gt; Security</code>
+		category in the left frame. This will display the existing security
+		preferences.
+	</p>
+	<p>
+		<code>Do Not Use SSL</code>
+		<br> Select this radio button to use plain TCP/IP connection. All
+		commands and data will be sent un-encrypted when this option is
+		selected.
+	</p>
+	<p>
+		<code>Use SSL If Available</code>
+		<br> Select this radio button to tell JFTP to use a secured
+		connection if the server you are connecting to supports SSL. If the
+		server supports SSL, all commands and/or data will be transferred in
+		encrypted format.
+	</p>
+	<p>
+		<code>Use Explicit SSL</code>
+		<br> Select this radio button to tell JFTP to use an Explicit SSL
+		connection. This means, after connecting to the FTP server, JFTP will
+		negotiate for an SSL connection and if it succeeds, the plain TCP/IP
+		connection will be transformed into an SSL connection. If the SSL
+		negotiation fails for any reason, the connection will be closed.
+	</p>
+	<p>
+		<code>Use Implicit SSL</code>
+		<br> Select this radio button to connect to the FTP server using
+		an implicit SSL connection.
+	</p>
+	<p>
+		<code>Do Not Encrypt Data Channel</code>
+		<br> Select this option to instruct JFTP not to use SSL for
+		transferring actual data such as file transfers and directory
+		listings.
+	</p>
+	<p>
+		When you are done, click on the
+		<code>Save</code>
+		button to save all your changes. This would also close the
+		<code>Preferences</code>
+		dialog.
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</body>
+</html>

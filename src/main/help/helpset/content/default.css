@@ -1,0 +1,125 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+p.note {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	background-color: #FFFFCC;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid
+}
+
+p.tip {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	background-color: #CCFFCC;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid
+}
+
+li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	margin-left: 10
+}
+
+ul {
+	list-style-type: disc;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+ul.note {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	background-color: #ffffd6;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+table {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	background-color: #cccccc
+}
+
+code {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #000066
+}
+
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #000000;
+}
+
+ol {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}

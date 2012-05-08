@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Creating a New Directory</title>
+</head>
+<body>
+	<h1>Creating a New Directory</h1>
+	<p>To create a new directory on the remote system, change the
+		working directory to the directory in which you want to create the new
+		directory. After changing the working directory, do any one of the
+		following:</p>
+	<ul>
+		<li>Select <code>Remote File -&gt; New -&gt; Directory...</code>
+			menu from the menu bar
+		</li>
+		<li>Click on the <img src="../images/newRemoteDirectory16.gif"
+			width="16" height="16">&nbsp;&nbsp;button in the tool bar
+		</li>
+		<li>Press <code>Ctrl + D </code>(<code>Command + D</code> on Mac
+			OS X) on your key board
+		</li>
+		<li>Right click any where in the <a
+			href="../userInterface/remotePane.html">remote pane</a> and, select <code>New
+				-&gt; Directory...</code> from the context menu
+		</li>
+	</ul>
+	<p>
+		When you do any of the above actions, a new dialog titled,
+		<code>Create New Remote Directory</code>
+		will be displayed.
+	</p>
+	<p>
+		<code>Directory Name</code>
+		<br> Specify a name for the directory that you would like to
+		create.
+	</p>
+	<p>
+		<code>Create</code>
+		<br> Clicking this button will create (or try to create) the
+		directory that you have specified and closes the dialog.
+	</p>
+	<p>
+		<code>Cancel</code>
+		<br> Clicking this button discards your input and closes the
+		<code>Create New Remote Directory</code>
+		dialog.
+	</p>
+	<p>
+		<code>Help</code>
+		<br> Clicking this button displays this help topic.
+	</p>
+	<p class="tip">
+		<img src="../images/tip32.gif" border="0" width="32" height="32"
+			align="bottom" alt="Tip"> In the
+		<code>Directory Name</code>
+		field, you may enter <b>absolute</b> or <b>relative</b> (to the
+		working directory) path names. Below are a few examples assuming your
+		current working directory is set to
+		<code>/wd</code>
+		<br> <br> <b>Example 1</b> <br> Entering
+		<code>sampleDir</code>
+		would create a directory named,
+		<code>sampleDir</code>
+		in the current working directory,
+		<code>/wd</code>
+		. <br> <br> <b>Example 2</b> <br> Entering
+		<code>subdir\sampleDir</code>
+		would create a directory named,
+		<code>sampleDir</code>
+		in the directory
+		<code>/wd/subdir</code>
+		. The directory
+		<code>subdir</code>
+		must exist in order to successfully create the directory. <br> <br>
+		<b>Example 3</b> <br> Entering
+		<code>/temp/sampleDir</code>
+		would create a directory named,
+		<code>sampleDir</code>
+		in the directory,
+		<code>/temp</code>
+		. If the directory
+		<code>/temp</code>
+		does not exists, the directory creation will fail.
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</body>
+</html>

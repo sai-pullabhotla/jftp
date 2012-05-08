@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+    PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+    "map_2_0.dtd">
+
+<map version="1.0">
+
+	<mapID target="jftpIcon" url="content/images/jftp16.gif" />
+	<mapID target="openBookIcon" url="content/images/openBook16.gif" />
+	<mapID target="closedBookIcon" url="content/images/closedBook16.gif" />
+	<mapID target="topicIcon" url="content/images/topic16.gif" />
+
+	<mapID target="index" url="content/index.html" />
+
+	<mapID target="introduction" url="content/introduction/index.html" />
+	<mapID target="introduction.whatIsJFTP" url="content/introduction/whatIsJFTP.html" />
+	<mapID target="introduction.features" url="content/introduction/features.html" />
+	<mapID target="introduction.uninstall" url="content/introduction/uninstall.html" />
+
+	<mapID target="userInterface" url="content/userInterface/index.html" />
+	<mapID target="userInterface.mainWindow" url="content/userInterface/mainWindow.html" />
+	<mapID target="userInterface.menuBar" url="content/userInterface/menuBar.html" />
+	<mapID target="userInterface.toolBar" url="content/userInterface/toolBar.html" />
+	<mapID target="userInterface.logPane" url="content/userInterface/logPane.html" />
+	<mapID target="userInterface.sessionTabs" url="content/userInterface/sessionTabs.html" />
+	<mapID target="userInterface.localPane" url="content/userInterface/localPane.html" />
+	<mapID target="userInterface.remotePane" url="content/userInterface/remotePane.html" />
+	<mapID target="userInterface.statusBar" url="content/userInterface/statusBar.html" />
+
+	<mapID target="connect" url="content/connect/index.html" />
+	<mapID target="connect.connectionDialog" url="content/connect/connectionDialog.html" />
+	<mapID target="connect.favorite" url="content/connect/favorite.html" />
+	<mapID target="connect.disconnect" url="content/connect/disconnect.html" />
+	<mapID target="connect.reconnect" url="content/connect/reconnect.html" />
+
+	<mapID target="transfer" url="content/transfer/index.html" />
+	<mapID target="transfer.upload" url="content/transfer/upload.html" />
+	<mapID target="transfer.uploadAs" url="content/transfer/uploadAs.html" />
+	<mapID target="transfer.zipAndUpload" url="content/transfer/zipAndUpload.html" />
+	<mapID target="transfer.download" url="content/transfer/download.html" />
+	<mapID target="transfer.downloadAs" url="content/transfer/downloadAs.html" />
+	<mapID target="transfer.downloadAndUnzip" url="content/transfer/downloadAndUnzip.html" />
+	<mapID target="transfer.abort" url="content/transfer/abort.html" />
+	<mapID target="transfer.transferModes" url="content/transfer/transferModes.html" />
+
+	<mapID target="local" url="content/local/index.html" />
+	<mapID target="local.browse" url="content/local/browse.html" />
+	<mapID target="local.sort" url="content/local/sort.html" />
+	<mapID target="local.open" url="content/content/local/open.html" />
+	<mapID target="local.edit" url="content/local/edit.html" />
+	<mapID target="local.print" url="content/local/print.html" />
+	<mapID target="local.email" url="content/local/email.html" />
+	<mapID target="local.newFile" url="content/local/newFile.html" />
+	<mapID target="local.newDirectory" url="content/local/newDirectory.html" />
+	<mapID target="local.changeDirectory" url="content/local/changeDirectory.html" />
+	<mapID target="local.rename" url="content/local/rename.html" />
+	<mapID target="local.delete" url="content/local/delete.html" />
+	<mapID target="local.filter" url="content/local/filter.html" />
+	<mapID target="local.clearFilter" url="content/local/clearFilter.html" />
+	<mapID target="local.properties" url="content/local/properties.html" />
+	<mapID target="local.refresh" url="content/local/refresh.html" />
+
+	<mapID target="remote" url="content/remote/index.html" />
+	<mapID target="remote.browse" url="content/remote/browse.html" />
+	<mapID target="remote.sort" url="content/remote/sort.html" />
+	<mapID target="remote.open" url="content/remote/open.html" />
+	<mapID target="remote.edit" url="content/remote/edit.html" />
+	<mapID target="remote.print" url="content/remote/print.html" />
+	<mapID target="remote.email" url="content/remote/email.html" />
+	<mapID target="remote.newFile" url="content/remote/newFile.html" />
+	<mapID target="remote.newDirectory" url="content/remote/newDirectory.html" />
+	<mapID target="remote.changeDirectory" url="content/remote/changeDirectory.html" />
+	<mapID target="remote.rename" url="content/remote/rename.html" />
+	<mapID target="remote.delete" url="content/remote/delete.html" />
+	<mapID target="remote.filter" url="content/remote/filter.html" />
+	<mapID target="remote.clearFilter" url="content/remote/clearFilter.html" />
+	<mapID target="remote.properties" url="content/remote/properties.html" />
+	<mapID target="remote.executeCommands" url="content/remote/executeCommands.html" />
+	<mapID target="remote.refresh" url="content/remote/refresh.html" />
+
+	<mapID target="sessions" url="content/sessions/index.html" />
+	<mapID target="sessions.open" url="content/sessions/open.html" />
+	<mapID target="sessions.close" url="content/sessions/close.html" />
+	<mapID target="sessions.activate" url="content/sessions/activate.html" />
+
+	<mapID target="favorites" url="content/favorites/index.html" />
+	<mapID target="favorites.favoritesManager" url="content/favorites/favoriteManager.html" />
+	<mapID target="favorites.add" url="content/favorites/add.html" />
+	<mapID target="favorites.edit" url="content/favorites/edit.html" />
+	<mapID target="favorites.delete" url="content/favorites/delete.html" />
+	<mapID target="favorites.connect" url="content/favorites/connect.html" />
+
+	<mapID target="security" url="content/security/index.html" />
+	<mapID target="security.introduction" url="content/security/introduction.html" />
+	<mapID target="security.sslConnection" url="content/security/sslConnection.html" />
+	<mapID target="security.installCertificate" url="content/security/installCertificate.html" />
+	<mapID target="security.certificatesManager" url="content/security/certificatesManager.html" />
+	<mapID target="security.viewCertificate" url="content/security/viewCertificate.html" />
+	<mapID target="security.importCertificates" url="content/security/importCertificates.html" />
+	<mapID target="security.deleteCertificates" url="content/security/deleteCertificates.html" />
+
+	<mapID target="preferences" url="content/preferences/index.html" />
+	<mapID target="preferences.connectionSettings" url="content/preferences/connectionSettings.html" />
+	<mapID target="preferences.connectionSettings.general"
+		url="content/preferences/connectionSettings.general.html" />
+	<mapID target="preferences.connectionSettings.advanced"
+		url="content/preferences/connectionSettings.advanced.html" />
+	<mapID target="preferences.connectionSettings.proxy" url="content/preferences/connectionSettings.proxy.html" />
+	<mapID target="preferences.connectionSettings.security"
+		url="content/preferences/connectionSettings.security.html" />
+	<mapID target="preferences.transferModes" url="content/preferences/transferModes.html" />
+	<mapID target="preferences.regionalSettings" url="content/preferences/regionalSettings.html" />
+	<mapID target="preferences.userInterface" url="content/preferences/userInterface.html" />
+	<mapID target="preferences.softwareUpdates" url="content/preferences/softwareUpdates.html" />
+
+	<mapID target="keyboardShortcuts" url="content/keyboardShortcuts/index.html" />
+
+	<mapID target="licenseAgreement" url="content/license.html" />
+	<mapID target="tips" url="content/tips.html" />
+	<mapID target="feedback" url="content/feedback.html" />
+	<mapID target="faq" url="content/faq.html" />
+	<mapID target="support" url="content/support.html" />
+	<mapID target="credits" url="content/credits.html" />
+
+</map>

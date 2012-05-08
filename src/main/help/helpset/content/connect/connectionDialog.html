@@ -1,0 +1,300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Connecting to an FTP Site Using the Connection Dialog</title>
+</head>
+<body>
+	<h1>Connecting to an FTP Site Using the Connection Dialog</h1>
+	<p>To connect to an FTP site using the connection dialog, do any of
+		the following actions:</p>
+	<ul>
+		<li>Select the menu item <code>FTP -&gt; Connect...</code> from
+			the menu bar
+		</li>
+		<li>Click on the <img src="../images/connect16.gif" border="0"
+			width="16" height="16" alt="Connect Icon"> &nbsp;icon in the
+			tool bar
+		</li>
+		<li>Press the <code>F3</code> key on your key board
+		</li>
+	</ul>
+	<p>
+		When you do any of the above actions, a new dialog box titled,
+		<code>Connect</code>
+		will be displayed.
+	</p>
+	<p>
+		The
+		<code>Connect</code>
+		dialog has four tabs namely,
+		<code>General</code>
+		,
+		<code>Security</code>
+		,
+		<code>Advanced</code>
+		and
+		<code>Commands</code>
+		. By default, when ever you open the
+		<code>Connect</code>
+		dialog, the
+		<code>General</code>
+		tab gets activated. To activate another tab, just click on the desired
+		tab.
+	</p>
+	<p class="note">
+		<img src="../images/note32.gif" border="0" width="32" height="32"
+			align="bottom" alt="Note"> In most cases, you just have to fill
+		in the
+		<code>Host Name</code>
+		,
+		<code>User Name</code>
+		and
+		<code>Password</code>
+		in the
+		<code>General</code>
+		tab. All other fields will be filled in with default values (some of
+		them are taken from your global preferences), which will work with
+		most FTP sites.
+	</p>
+	<h2>General Tab</h2>
+	<p>
+		<code>Host Name</code>
+		<br> Enter the host name or IP address of the FTP site that you
+		wish to connect to. For e.g.
+		<code>ftp.netscape.com</code>
+		.
+	</p>
+	<p>
+		<code>User Name</code>
+		<br> To log on to an FTP site, you must identify yourself with a
+		valid user name and password and optionally an account number or
+		account name. In this field, enter the user name that you would like
+		to use for log in. If you are connecting to an anonymous FTP site such
+		as
+		<code>ftp.netscape.com</code>
+		, enter the word
+		<code>anonymous</code>
+		as user name.
+	</p>
+	<p>
+		<code>Password</code>
+		<br> Enter your password for logging in to the FTP site. If you
+		are connecting to an anonymous FTP site such as
+		<code>ftp.netscape.com</code>
+		, enter your e-mail address as password.
+	</p>
+	<p>
+		<code>Port Number</code>
+		<br> In order to connect to a remote service using TCP/IP, one
+		must know the port number on which the service is running on the
+		remote system. By default, the FTP service runs on port 21. However,
+		this might not be the case all the time. For e.g. if you are
+		connecting through a firewall or, if the FTP site administrator has
+		set a different port for the FTP service. Contact your system
+		administrator or the site's administrator if the default port does not
+		work well for you.
+	</p>
+	<p>
+		<code>Account</code>
+		<br> Enter your account number or account name to log in. Most
+		FTP sites do not need account information during log in. However, if
+		your FTP site needs one, enter it here.
+	</p>
+	<p class="note">
+		<img src="../images/note32.gif" border="0" width="32" height="32"
+			align="bottom" alt="Note"> At this point, you may click on the
+		<code>Connect</code>
+		button to connect to the FTP site, or, click on the
+		<code>Security</code>
+		tab to configure security options.
+	</p>
+	<h2>Security Tab</h2>
+	<p>
+		Click on the
+		<code>Security</code>
+		tab to configure the security options for this FTP connection.
+	</p>
+	<p>
+		<code>Do Not Use SSL</code>
+		<br> Select this radio button to use a plain TCP/IP connection.
+		All commands and data will be sent in clear (un-encrypted) when this
+		option is selected.
+	</p>
+	<p>
+		<code>Use SSL If Available</code>
+		<br> Select this radio button to tell JFTP to use a secured
+		connection if the server you are connecting to supports SSL. If the
+		server supports SSL, all commands and/or data that is transferred will
+		be encrypted.
+	</p>
+	<p>
+		<code>Use Explicit SSL</code>
+		<br> Select this radio button to tell JFTP to use an Explicit SSL
+		connection. This means, after connecting to the FTP server, JFTP will
+		negotiate for an SSL connection and if it succeeds, the plain TCP/IP
+		connection will be transformed into an SSL connection. If the SSL
+		negotiation fails for any reason, the connection will be closed.
+	</p>
+	<p>
+		<code>Use Implicit SSL</code>
+		<br> Select this radio button to connect to the FTP server using
+		an implicit SSL connection.
+	</p>
+	<p>
+		<code>Port Number</code>
+		<br> Enter the port number to connect to for an Implicit SSL
+		connection. The default port number for Implicit SSL is 990. If your
+		FTP server listens on a port other than the default, enter that port
+		number here.
+	</p>
+	<p>
+		<code>Do Not Encrypt Data Channel</code>
+		<br> Select this option to instruct JFTP not to use SSL for
+		transferring actual data such as file transfers and directory
+		listings. With this option selected, only the data sent over command
+		channel gets encrypted. This data includes user name and password.
+	</p>
+	<p class="note">
+		<img src="../images/note32.gif" border="0" width="32" height="32"
+			align="bottom" alt="Note"> At this point, you may click on the
+		<code>Connect</code>
+		button to connect to the FTP site, or, click on the
+		<code>Advanced</code>
+		tab to configure advanced connect options.
+	</p>
+	<h2>Advanced Tab</h2>
+	<p>
+		The advanced connect options can be set by clicking on the
+		<code>Advanced</code>
+		tab in the
+		<code>Connect</code>
+		dialog.
+	</p>
+	<p>
+		<code>FTP Client</code>
+		<br> Select the FTP client that you would like to use for
+		connecting to this FTP site. This drop-down box contains a list of all
+		installed FTP client implementations. You can see the list by clicking
+		on the down arrow of the drop-down box. The default installation of
+		JFTP comes with two different clients:
+	<ul>
+		<li><code>Default FTP Client</code></li>
+		<li><code>AS/400 FTP Client</code></li>
+	</ul>
+	<p>
+		The
+		<code>Default FTP Client</code>
+		works well with most FTP servers. The AS/400 FTP client is
+		specifically designed for connecting to AS/400 (or iSeries) FTP
+		servers.
+	</p>
+	<p>
+		<code>List Parser</code>
+		<br> Select a list parser that you would like to use for this FTP
+		site. This drop-down box contains a list of all installed list
+		parsers. A list parser is a small program used to parse the directory
+		listing produced by an FTP server in response to the
+		<code>LIST</code>
+		command. The default installation of JFTP comes with the following two
+		list parsers:
+	<ul>
+		<li><code>Default List Parser (UNIX)</code></li>
+		<li><code>MS-DOS List Parser </code></li>
+	</ul>
+	<p>
+		The
+		<code>Default List Parser</code>
+		works well with most FTP servers that produce UNIX style directory
+		listing. The
+		<code>MS-DOS List Parser</code>
+		is used to parse the DOS/Windows style directory listing.
+	</p>
+	</p>
+	<p>
+		<code>Initial Local Directory</code>
+		<br> Enter a valid directory that you would like to set as
+		initial local working directory for this session. Upon connecting to
+		the FTP site, the working directory in the local pane will be changed
+		to the directory you specify here.
+	</p>
+	<p>
+		<code>Browse...</code>
+		<br> Use this button to open a file dialog that allows you to
+		browse the local file system and select an existing directory to be
+		used as
+		<code>Initial Local Directory</code>
+		.
+	</p>
+	<p>
+		<code>Initial Remote Directory</code>
+		<br> Enter a valid directory that you would like to set as
+		initial remote working directory for this session. Upon connecting to
+		the FTP site, the working directory in the remote pane will be changed
+		to the directory you specify here.
+	</p>
+	<p>
+		<code>Transfer Data in Passive Mode</code>
+		<br> To transfer a file using FTP, a data connection needs to be
+		established between your PC and the FTP site. The data connection can
+		be opened in either active or passive modes. In the active mode, the
+		FTP site establishes the data connection to your PC (client). In the
+		passive mode, the PC establishes a connection to the FTP site. The
+		passive mode is helpful if you are behind a firewall and your firewall
+		does not accept incoming connections from computers outside of your
+		network.
+	</p>
+	<p>Check this check box to transfer data in passive mode.
+		Un-checking this will cause the data to be transferred in active mode.</p>
+	<p class="note">
+		<img src="../images/note32.gif" border="0" width="32" height="32"
+			align="bottom" alt="Note"> At this point, you may click on the
+		<code>Connect</code>
+		button to connect to the FTP site or, click on the
+		<code>Commands</code>
+		tab to further customize the connect options.
+	</p>
+	<h2>Commands Tab</h2>
+	<p>This tab is provided for the sake of advanced users who are
+		familiar with FTP protocol and site specific features.</p>
+	<p>
+		<code>Execute the following commands after login</code>
+		<br> You may request JFTP to execute zero or more FTP commands up
+		on a successful login. A simple example would be, if you want to know
+		what all features an FTP site supports, you issue the
+		<code>HELP</code>
+		command. However, in practical scenarios, you use this feature to
+		alter some site specific parameters such as changing the directory
+		listing style; i.e. whether to list the directory contents in server
+		operating system's proprietary format or to list them in standard UNIX
+		format. In this text area, enter the FTP commands that you would like
+		to execute after login. Make sure to separate each command by a new
+		line.
+	</p>
+	<p>
+		<code>Connect</code>
+		<br> Clicking this button validates the input you have provided,
+		closes the
+		<code>Connect</code>
+		dialog and connects to the specified FTP site. If the data you have
+		provided is insufficient or invalid to make a connection an
+		appropriate error message will be displayed.
+	</p>
+	<p>
+		<code>Cancel</code>
+		<br> Clicking this button simply closes the
+		<code>Connect</code>
+		dialog. You may also press the
+		<code>Esc</code>
+		key on your keyboard to close the dialog.
+	</p>
+	<p>
+		<code>Help</code>
+		<br> Click this button to display this help topic.
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Creating a New File</title>
+</head>
+<body>
+	<h1>Creating a New File</h1>
+	<p>To create a new file on the local system, change the working
+		directory to the directory in which you want to create the file. After
+		changing the working directory, do any one of the following:</p>
+	<ul>
+		<li>Select <code>Local File -&gt; New -&gt; File...</code> menu
+			from the menu bar
+		</li>
+		<li>Click on the <img src="../images/newLocalFile16.gif"
+			width="16" height="16">&nbsp; button in the tool bar
+		</li>
+		<li>Press <code>Ctrl + Shift + F </code>(<code>Command +
+				Shift + F</code> on Mac OS X) on your key board
+		</li>
+		<li>Right click any where in the <a
+			href="../userInterface/localPane.html">local pane</a>, and select <code>New
+				-&gt; File...</code> from the context menu
+		</li>
+	</ul>
+	<p>
+		When you do any of the above actions, a new dialog titled,
+		<code>Create New Local File</code>
+		will be displayed.
+	</p>
+	<p>
+		<code>File Name</code>
+		<br> Specify a name for the file that you would like to create.
+	</p>
+	<p>
+		<code>Create</code>
+		<br> Clicking this button will create (or try to create) the file
+		that you have specified and closes the
+		<code>Create New Local File</code>
+		dialog.
+	</p>
+	<p>
+		<code>Cancel</code>
+		<br> Clicking this button discards your input and simply closes
+		the
+		<code>Create New Local File</code>
+		dialog.
+	</p>
+	<p>
+		<code>Help</code>
+		<br> Clicking this button displays this help topic.
+	</p>
+	<p class="tip">
+		<img src="../images/tip32.gif" border="0" width="32" height="32"
+			align="bottom" alt="Tip"> In the
+		<code>File Name</code>
+		field, you may enter <b>absolute</b>, <b>relative</b> (to the working
+		directory), or <b>UNC</b> path names. Below are a few examples
+		assuming your current working directory is set to
+		<code>C:\wd</code>
+		<br> <br> <b>Example 1</b> <br> Entering
+		<code>sample.txt</code>
+		would create a file named,
+		<code>sample.txt</code>
+		in the current working directory,
+		<code>C:\wd</code>
+		. <br> <br> <b>Example 2</b> <br> Entering
+		<code>subdir\sample.txt</code>
+		would create a file named,
+		<code>sample.txt</code>
+		in the directory
+		<code>C:\wd\subdir</code>
+		. The directory
+		<code>subdir</code>
+		must exist in order for the file creation to be successful. <br>
+		<br> <b>Example 3</b> <br> Entering
+		<code>C:\temp\sample.txt</code>
+		would create a file named,
+		<code>sample.txt</code>
+		in the directory,
+		<code>C:\temp</code>
+		. The directory
+		<code>C:\temp</code>
+		must exist in order for the file creation to be successful. <br>
+		<br> <b>Example 4</b> <br> To create a file in another
+		system on your network, enter
+		<code>\\hostname\sharename\sample.txt</code>
+		, where,
+		<code>hostname</code>
+		is the name of the computer in your network, in which you want to
+		create the file,
+		<code>sharename</code>
+		is the shared directory and
+		<code>sample.txt</code>
+		is the name of the file that you want to create.
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Renaming Files and Directories</title>
+</head>
+<body>
+	<h1>Renaming Files and Directories</h1>
+	<p>To rename a file or directory on the remote system, locate and
+		select (highlight) the file or directory that you would like to rename
+		and do any one of the following:</p>
+	<ul>
+		<li>Select <code>Remote File -&gt; Rename...</code> menu item
+			from the menu bar
+		</li>
+		<li>Press on the <img src="../images/renameRemoteFile16.gif"
+			width="16" height="16">&nbsp;&nbsp;in the tool bar
+		</li>
+		<li>Press <code>Ctrl + R </code>(<code>Command + R</code> on Mac
+			OS X) on your key board
+		</li>
+		<li>Right click on the file or directory that you would like to
+			rename and select <code>Rename...</code> from the context menu
+		</li>
+	</ul>
+	<p>
+		When you do any of the above actions, a new dialog titled
+		<code>Rename Remote File or Directory</code>
+		is displayed allowing you to specify a new name.
+	</p>
+	<p>
+		<code>From</code>
+		<br> Enter the name of the file or directory that you would like
+		to rename.
+	</p>
+	<p class="note">
+		<img src="../images/note32.gif" border="0" width="32" height="32"
+			align="bottom" alt="Note"> If you have selected a file or
+		directory in the remote pane before opening the
+		<code>Rename Remote File or Directory</code>
+		dialog, the
+		<code>From</code>
+		field is pre-populated with the selected object's name.
+	</p>
+	<p>
+		<code>To</code>
+		<br> Enter the new name for the file or directory that you are
+		renaming.
+	</p>
+	<p>
+		<code>Rename</code>
+		<br> Clicking on this button would rename (or try to rename) the
+		file or directory and closes the
+		<code>Rename Remote File or Directory</code>
+		dialog.
+	</p>
+	<p>
+		<code>Cancel</code>
+		<br> Clicking this button would discard the input you have
+		provided and closes the
+		<code>Rename Remote File or Directory</code>
+		dialog.
+	</p>
+	<p>
+		<code>Help</code>
+		<br> Clicking this button displays this help topic.
+	</p>
+	<p class="tip">
+		<img src="../images/tip32.gif" border="0" width="32" height="32"
+			align="bottom" alt="Tip"> In the
+		<code>From</code>
+		and
+		<code>To</code>
+		fields, you may enter absolute or relative path names. Below are a few
+		examples to demonstrate how the rename works based on the input you
+		provide. All examples assume that your current working directory is
+		set to
+		<code>/wd</code>
+		. <br> <br> <b>Example 1</b> <br> If you enter
+		<code>old.txt</code>
+		in the
+		<code>From</code>
+		field and
+		<code>new.txt</code>
+		in the
+		<code>To</code>
+		field, the file
+		<code>/wd/old.txt</code>
+		will be renamed to
+		<code>/wd/new.txt</code>
+		. <br> <br> <b>Example 2</b> <br> If you enter
+		<code>old.txt</code>
+		in the
+		<code>From</code>
+		field and
+		<code>subDir/new.txt</code>
+		in the
+		<code>To</code>
+		field, the file
+		<code>/wd/old.txt</code>
+		will be renamed to
+		<code>/wd/subDir/new.txt</code>
+		. In this case, the file is actually moved to another directory. Make
+		sure that the directory
+		<code>/wd/subDir</code>
+		exists in order for this to work. <br> <br> <b>Example 3</b>
+		<br> If you enter
+		<code>/dir1/sample.txt</code>
+		in the
+		<code>From</code>
+		field and
+		<code>/dir2/sample.txt</code>
+		in the
+		<code>To</code>
+		field, the file
+		<code>sample.txt</code>
+		will be moved from
+		<code>/dir1</code>
+		to
+		<code>/dir2</code>
+		.
+	</p>
+	<p class="note">
+		<img src="../images/note32.gif" border="0" width="32" height="32"
+			align="bottom" alt="Note"> All the above examples would work
+		well even with directories; i.e. you can rename or move directories
+		just the same way as you could with files.
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</body>
+</html>

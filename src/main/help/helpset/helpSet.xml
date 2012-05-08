@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE helpset
+    PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp HelpSet Version 1.0//EN"
+    "helpset_2_0.dtd">
+
+<helpset version="2.0">
+	<!-- title -->
+	<title>JFTP - Help</title>
+
+	<!-- maps -->
+	<maps>
+		<homeID>index</homeID>
+		<mapref location="map.xml" />
+	</maps>
+
+	<!-- views -->
+	<view>
+		<name>TOC</name>
+		<label>Contents</label>
+		<type>javax.help.TOCView</type>
+		<data>toc.xml</data>
+	</view>
+
+<!-- 
+	<view>
+		<name>Search</name>
+		<label>Search</label>
+		<type>javax.help.SearchView</type>
+		<data engine="com.sun.java.help.search.DefaultSearchEngine">
+			content/SearchDatabase
+		</data>
+	</view>
+ -->
+ 
+	<presentation default="true" displayviewimages="false">
+		<name>main window</name>
+		<size width="700" height="400" />
+		<location x="50" y="50" />
+		<title>JFTP - Help</title>
+		<image>jftpIcon</image>
+		<toolbar>
+			<helpaction>javax.help.BackAction</helpaction>
+			<helpaction>javax.help.ForwardAction</helpaction>
+			<helpaction>javax.help.SeparatorAction</helpaction>
+			<helpaction>javax.help.HomeAction</helpaction>
+			<helpaction>javax.help.SeparatorAction</helpaction>
+			<helpaction>javax.help.PrintAction</helpaction>
+			<helpaction>javax.help.PrintSetupAction</helpaction>
+		</toolbar>
+	</presentation>
+
+
+</helpset>

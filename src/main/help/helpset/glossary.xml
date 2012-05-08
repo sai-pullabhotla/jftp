@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 2.0//EN"
+     "index_2_0.dtd">
+
+<index version="2.0">
+	<indexitem text="beans" target="index" />
+	<indexitem text="applet" target="applet_def" />
+	<indexitem text="application" target="application_def" />
+	<indexitem text="application server" target="appServer_def" />
+	<indexitem text="AWT" target="awt_def" />
+</index>

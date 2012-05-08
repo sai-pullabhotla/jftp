@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toc
+    PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
+    "toc_2_0.dtd">
+
+<toc version="1.0" categoryopenimage="openBookIcon"
+	categoryclosedimage="closedBookIcon" topicimage="topicIcon">
+
+	<tocitem text="JFTP - Help" image="jftpIcon" target="index">
+
+		<tocitem text="Introduction" target="introduction">
+			<tocitem text="What is JFTP?" target="introduction.whatIsJFTP" />
+			<tocitem text="Features" target="introduction.features" />
+		</tocitem>
+
+		<tocitem text="User Interface" target="userInterface">
+			<tocitem text="Main Window" target="userInterface.mainWindow" />
+			<tocitem text="Menu Bar" target="userInterface.menuBar" />
+			<tocitem text="Tool Bar" target="userInterface.toolBar" />
+			<tocitem text="Log Pane" target="userInterface.logPane" />
+			<tocitem text="Session Tabs" target="userInterface.sessionTabs" />
+			<tocitem text="Local Pane" target="userInterface.localPane" />
+			<tocitem text="Remote Pane" target="userInterface.remotePane" />
+			<tocitem text="Status Bar" target="userInterface.statusBar" />
+		</tocitem>
+
+		<tocitem text="Connecting to an FTP Site" target="connect">
+			<tocitem text="Using the Connection Dialog" target="connect.connectionDialog" />
+			<tocitem text="Connecting to your Favorite FTP Site" target="connect.favorite" />
+			<tocitem text="Disconnecting from an FTP Site" target="connect.disconnect" />
+			<tocitem text="Reconnecting to an FTP Site" target="connect.reconnect" />
+		</tocitem>
+
+		<tocitem text="Transferring Files" target="transfer">
+			<tocitem text="Uploading Files" target="transfer.upload" />
+			<tocitem text="Upload As" target="transfer.uploadAs" />
+			<tocitem text="Zip and Upload" target="transfer.zipAndUpload" />
+			<tocitem text="Downloading Files" target="transfer.download" />
+			<tocitem text="Download As" target="transfer.downloadAs" />
+			<tocitem text="Download and Unzip" target="transfer.downloadAndUnzip" />
+			<tocitem text="Aborting a Transfer" target="transfer.abort" />
+			<tocitem text="Transfer Modes" target="transfer.transferModes" />
+		</tocitem>
+
+		<tocitem text="Working with Local Files" target="local">
+			<tocitem text="Browsing Files and Directories" target="local.browse" />
+			<tocitem text="Sorting the Directory List" target="local.sort" />
+			<tocitem text="Opening a File" target="local.open" />
+			<tocitem text="Editing a File" target="local.edit" />
+			<tocitem text="Printing a File" target="local.print" />
+			<tocitem text="E-Mailing a File" target="local.email" />
+			<tocitem text="Creating a New File" target="local.newFile" />
+			<tocitem text="Creating a New Directory" target="local.newDirectory" />
+			<tocitem text="Changing Working Directory" target="local.changeDirectory" />
+			<tocitem text="Renaming Files and Directories" target="local.rename" />
+			<tocitem text="Deleting Files and Directories" target="local.delete" />
+			<tocitem text="Setting up Filters" target="local.filter" />
+			<tocitem text="Clearing Filters" target="local.clearFilter" />
+			<tocitem text="Viewing File/Directory Properties" target="local.properties" />
+			<tocitem text="Refreshing Contents" target="local.refresh" />
+		</tocitem>
+
+		<tocitem text="Working with Remote Files" target="remote">
+			<tocitem text="Browsing Files and Directories" target="remote.browse" />
+			<tocitem text="Sorting the Directory List" target="remote.sort" />
+			<tocitem text="Opening a File" target="remote.open" />
+			<tocitem text="Editing a File" target="remote.edit" />
+			<tocitem text="Printing a File" target="remote.print" />
+			<tocitem text="E-Mailing a File" target="remote.email" />
+			<tocitem text="Creating a New File" target="remote.newFile" />
+			<tocitem text="Creating a New Directory" target="remote.newDirectory" />
+			<tocitem text="Changing Working Directory" target="remote.changeDirectory" />
+			<tocitem text="Renaming Files and Directories" target="remote.rename" />
+			<tocitem text="Deleting Files and Directories" target="remote.delete" />
+			<tocitem text="Setting up Filters" target="remote.filter" />
+			<tocitem text="Clearing Filters" target="remote.clearFilter" />
+			<tocitem text="Viewing File/Directory Properties" target="remote.properties" />
+			<tocitem text="Executing Commands" target="remote.executeCommands" />
+			<tocitem text="Refreshing Contents" target="remote.refresh" />
+		</tocitem>
+
+		<tocitem text="Working with Multiple Sessions" target="sessions">
+			<tocitem text="Opening a New Session" target="sessions.open" />
+			<tocitem text="Closing a Session" target="sessions.close" />
+			<tocitem text="Activating a Session" target="sessions.activate" />
+		</tocitem>
+
+		<tocitem text="Working with Favorites" target="favorites">
+			<tocitem text="Favorite Manager" target="favorites.favoritesManager" />
+			<tocitem text="Adding a Favorite" target="favorites.add" />
+			<tocitem text="Editing a Favorite" target="favorites.edit" />
+			<tocitem text="Deleting Favorites" target="favorites.delete" />
+			<tocitem text="Connecting to a Favorite FTP Site" target="favorites.connect" />
+		</tocitem>
+
+		<tocitem text="Security" target="security">
+			<tocitem text="Introduction to SSL" target="security.introduction" />
+			<tocitem text="Making an SSL Connection" target="security.sslConnection" />
+			<tocitem text="Installing a Certificate" target="security.installCertificate" />
+			<tocitem text="Certificate Manager" target="security.certificatesManager" />
+			<tocitem text="Viewing Details of a Certificate" target="security.viewCertificate" />
+			<tocitem text="Importing Certificate(s)" target="security.importCertificates" />
+			<tocitem text="Deleting Certificate(s)" target="security.deleteCertificates" />
+		</tocitem>
+
+		<tocitem text="Preferences" target="preferences">
+			<tocitem text="Connection Settings" target="preferences.connectionSettings">
+				<tocitem text="General" target="preferences.connectionSettings.general" />
+				<tocitem text="Advanced" target="preferences.connectionSettings.advanced" />
+				<tocitem text="Proxy" target="preferences.connectionSettings.proxy" />
+				<tocitem text="Security" target="preferences.connectionSettings.security" />
+			</tocitem>
+			<tocitem text="Transfer Modes" target="preferences.transferModes" />
+			<tocitem text="Regional Settings" target="preferences.regionalSettings" />
+			<tocitem text="User Interface" target="preferences.userInterface" />
+			<tocitem text="Software Updates" target="preferences.softwareUpdates" />
+		</tocitem>
+
+		<tocitem text="Keyboard Shortcuts" target="keyboardShortcuts" />
+		<tocitem text="Tips and Tricks" target="tips" />
+		<tocitem text="Frequently Asked Questions" target="faq" />
+		<tocitem text="Technical Support" target="support" />
+		<tocitem text="Send Feedback" target="feedback" />
+		<tocitem text="Credits" target="credits" />
+		<tocitem text="License Agreement" target="licenseAgreement" />
+
+	</tocitem>
+</toc>

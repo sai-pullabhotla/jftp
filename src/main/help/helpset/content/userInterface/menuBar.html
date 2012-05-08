@@ -1,0 +1,428 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Menu Bar</title>
+</head>
+<body>
+	<h1>Menu Bar</h1>
+	<p>The menu bar is a collection several menus. A menu contains one
+		or more menu items. Each menu item is used to perform a specific task.
+		JFTP's menu bar contains the following six menus:</p>
+	<ol>
+		<li><a href="#ftpMenu">FTP Menu</a></li>
+		<li><a href="#localFileMenu">Local File Menu</a></li>
+		<li><a href="#remoteFileMenu">Remote File Menu</a></li>
+		<li><a href="#transferModeMenu">Transfer Mode Menu </a></li>
+		<li><a href="#toolsMenu">Tools Menu </a></li>
+		<li><a href="#helpMenu">Help Menu </a></li>
+	</ol>
+	<a name="ftpMenu"></a>
+	<h2>FTP Menu</h2>
+	<p>The FTP menu contains the following menu items:</p>
+	<table width="100%" border="1" cellspacing="0" cellpadding="2">
+		<tr>
+			<th>Menu Item</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><code>New Session</code></td>
+			<td>Opens a new FTP session tab.</td>
+		</tr>
+		<tr>
+			<td><code>Close Session</code></td>
+			<td>Closes the selected FTP session tab.</td>
+		</tr>
+		<tr>
+			<td><code>Connect...</code></td>
+			<td>Opens the <code>Connect</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Disconnect</code></td>
+			<td>Disconnects the selected FTP session.</td>
+		</tr>
+		<tr>
+			<td><code>Reconnect</code></td>
+			<td>Reconnects to the previously connected FTP site.</td>
+		</tr>
+		<tr>
+			<td><code>Download</code></td>
+			<td>Copies files and/or directories from the FTP site to the
+				local system.</td>
+		</tr>
+		<tr>
+			<td><code>Download As...</code></td>
+			<td>Opens the <code>Download As</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Download and Unzip...</code></td>
+			<td>Opens the <code>Download and Unzip</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Upload</code></td>
+			<td>Copies selected files and/or directories from the local
+				system to the FTP site.</td>
+		</tr>
+		<tr>
+			<td><code>Upload As...</code></td>
+			<td>Opens the <code>Upload As</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Zip and Upload...</code></td>
+			<td>Opens the <code>Zip and Upload</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Abort</code></td>
+			<td>Aborts the current transfer, if any</td>
+		</tr>
+		<tr>
+			<td><code>Exit</code></td>
+			<td>Terminates all active FTP sessions and exits the application</td>
+		</tr>
+	</table>
+	<p class="note">
+		<img src="../images/note32.gif" border="0" width="32" height="32"
+			alt="Note"> On Mac OS X, the
+		<code>Quit </code>
+		menu item under the
+		<code>JFTP</code>
+		menu is equivalent to the
+		<code>Exit</code>
+		menu item.
+	</p>
+	<a name="localFileMenu"></a>
+	<h2>Local File Menu</h2>
+	<p>
+		The
+		<code>Local File</code>
+		menu contains the following menu items:
+	</p>
+	<table width="100%" border="1" cellpadding="2" cellspacing="0">
+		<tr>
+			<th>Menu Item</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><code>Open</code></td>
+			<td>Opens the selected local file or directory using the
+				associated application.</td>
+		</tr>
+		<tr>
+			<td><code>Edit</code></td>
+			<td>Opens the selected local file for editing using the
+				associated application.</td>
+		</tr>
+		<tr>
+			<td><code>Print</code></td>
+			<td>Prints the selected local file using the associated
+				application.</td>
+		</tr>
+		<tr>
+			<td><code>E-Mail</code></td>
+			<td>Composes a new e-mail message with the selected local file
+				attached to the message.</td>
+		</tr>
+		<tr>
+			<td><code>New -&gt; File...</code></td>
+			<td>Opens the <code>New Local File</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>New -&gt; Directory...</code></td>
+			<td>Opens the <code>New Local Directory</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Change Directory...</code></td>
+			<td>Opens the <code>Change Local Directory</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Rename...</code></td>
+			<td>Opens the <code>Rename Local File or Directory</code>
+				dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Delete...</code></td>
+			<td>Deletes selected files and directories from your PC,
+				permanently.</td>
+		</tr>
+		<tr>
+			<td><code>Apply Filter...</code></td>
+			<td>Opens the <code>Filter Local Files</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Clear Filter</code></td>
+			<td>Clears the current filter, if any.</td>
+		</tr>
+		<tr>
+			<td><code>Refresh</code></td>
+			<td>Refreshes the contents of local working directory. The root
+				directories will also be refreshed.</td>
+		</tr>
+		<tr>
+			<td><code>Properties</code></td>
+			<td>Displays the properties of selected local file or directory.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Select All</code></td>
+			<td>Selects all objects in the local pane.</td>
+		</tr>
+		<tr>
+			<td><code>Invert Selection</code></td>
+			<td>Inverts the object selection in the local pane.</td>
+		</tr>
+	</table>
+	<a name="remoteFileMenu"></a>
+	<h2>Remote File Menu</h2>
+	<p>
+		The
+		<code>Remote File</code>
+		menu contains the following menu items:
+	</p>
+	<table width="100%" border="1" cellpadding="2" cellspacing="0">
+		<tr>
+			<th>Menu Item</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><code>Open</code></td>
+			<td>Opens the selected remote file or directory using the
+				associated application.</td>
+		</tr>
+		<tr>
+			<td><code>Edit</code></td>
+			<td>Opens the selected remote file for editing using the
+				associated application .</td>
+		</tr>
+		<tr>
+			<td><code>Print</code></td>
+			<td>Prints the selected remote file using the associated
+				application.</td>
+		</tr>
+		<tr>
+			<td><code>E-Mail</code></td>
+			<td>Composes a new e-mail message with the selected remote file
+				attached to the message.</td>
+		</tr>
+		<tr>
+			<td><code>New -&gt; File...</code></td>
+			<td>Opens the <code>New Remote File</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>New -&gt; Directory...</code></td>
+			<td>Opens the <code>New Remote Directory</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Change Directory...</code></td>
+			<td>Opens the <code>Change Remote Directory</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Rename...</code></td>
+			<td>Opens the <code>Rename Remote File or Directory</code>
+				dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Delete...</code></td>
+			<td>Deletes selected files and directories from the FTP site.</td>
+		</tr>
+		<tr>
+			<td><code>Execute Command -&gt; Help</code></td>
+			<td>Sends <code>HELP</code> command to the FTP site and displays
+				the response in the message log.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Execute Command -&gt; Status</code></td>
+			<td>Sends <code>STAT</code> command to the FTP site and displays
+				the response in the message log.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Execute Command -&gt; System Info</code></td>
+			<td>Sends <code>SYST</code> command to the FTP site and displays
+				the response in the message log.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Execute Command -&gt; No Operation</code></td>
+			<td>Sends <code>NOOP</code> command to the FTP site and displays
+				the response in the message log.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Execute Command -&gt; Other...</code></td>
+			<td>Opens the <code>Execute Command(s)</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Apply Filter...</code></td>
+			<td>Opens the <code>Filter Remote Files</code> dialog.
+			</td>
+		</tr>
+		<tr>
+			<td><code>Clear Filter</code></td>
+			<td>Clears the current filter, if any.</td>
+		</tr>
+		<tr>
+			<td><code>Refresh</code></td>
+			<td>Refreshes the contents of remote working directory.</td>
+		</tr>
+		<tr>
+			<td><code>Properties</code></td>
+			<td>Displays the properties of selected remote file or
+				directory.</td>
+		</tr>
+		<tr>
+			<td><code>Select All</code></td>
+			<td>Selects all objects in the remote pane.</td>
+		</tr>
+		<tr>
+			<td><code>Invert Selection</code></td>
+			<td>Inverts the object selection in the remote pane.</td>
+		</tr>
+	</table>
+	<a name="transferModeMenu"></a>
+	<h2>Transfer Mode Menu</h2>
+	<p>
+		The
+		<code>Transfer Mode</code>
+		menu contains the following menu items:
+	</p>
+	<table width="100%" border="1" cellpadding="2" cellspacing="0">
+		<tr>
+			<th>Menu Item</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><code>Auto Detect</code></td>
+			<td>Sets the transfer mode to auto.</td>
+		</tr>
+		<tr>
+			<td><code>ASCII</code></td>
+			<td>Sets the transfer mode to ASCII</td>
+		</tr>
+		<tr>
+			<td><code>Binary/Image</code></td>
+			<td>Sets the transfer mode to binary (also called image)</td>
+		</tr>
+	</table>
+	<a name="toolsMenu"></a>
+	<h2>Tools Menu</h2>
+	<p>
+		The
+		<code>Tools</code>
+		menu contains the following menu items:
+	</p>
+	<table width="100%" border="1" cellpadding="2" cellspacing="0">
+		<tr>
+			<th>Menu Item</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><code>Add to Favorites...</code></td>
+			<td>Opens the <code>Add Favorite FTP Site</code> dialog
+			</td>
+		</tr>
+		<tr>
+			<td><code>Manage Favorites...</code></td>
+			<td>Opens the <code>Manage Favorites</code> dialog
+			</td>
+		</tr>
+		<tr>
+			<td><code>Manage Certificates...</code></td>
+			<td>Opens the <code>Manage Certificates</code> dialog
+			</td>
+		</tr>
+		<tr>
+			<td><code>Preferences</code></td>
+			<td>Opens the <code>Preferences</code> dialog.
+			</td>
+		</tr>
+	</table>
+	<p class="note">
+		<img src="../images/note32.gif" border="0" width="32" height="32"
+			alt="Note"> On Mac OS X, the
+		<code>Preferences</code>
+		menu item is not available under
+		<code>Tools</code>
+		menu, instead, it is available under the
+		<code>JFTP</code>
+		menu.
+	</p>
+	<a name="helpMenu"></a>
+	<h2>Help Menu</h2>
+	<p>
+		The
+		<code>Help</code>
+		menu contains the following menu items:
+	</p>
+	<table width="100%" border="1" cellpadding="2" cellspacing="0">
+		<tr>
+			<th>Menu Item</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td><code>Contents and Index</code></td>
+			<td>Displays help.</td>
+		</tr>
+		<tr>
+			<td><code>Request License...</code></td>
+			<td>Opens <code>Request a Commercial License</code> dialog
+			</td>
+		</tr>
+		<tr>
+			<td><code> Install License...</code></td>
+			<td>Opens the <code>Install License</code> dialog
+			</td>
+		</tr>
+		<tr>
+			<td><code>Tips</code></td>
+			<td>Displays Tips</td>
+		</tr>
+		<tr>
+			<td><code>FAQ</code></td>
+			<td>Displays FAQ (Frequently Asked Questions).</td>
+		</tr>
+		<tr>
+			<td><code>Support</code></td>
+			<td>Displays support information.</td>
+		</tr>
+		<tr>
+			<td><code> Send Feedback</code></td>
+			<td>Provides information on how to send feedback about JFTP.</td>
+		</tr>
+		<tr>
+			<td><code>About</code></td>
+			<td>Displays product's information.</td>
+		</tr>
+	</table>
+	<p class="note">
+		<img src="../images/note32.gif" width="32" height="32">On Mac OS
+		X, the
+		<code>About</code>
+		menu item does not exist under
+		<code>Help</code>
+		menu, instead, it is under the
+		<code>JFTP</code>
+		menu.
+	</p>
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</body>
+</html>

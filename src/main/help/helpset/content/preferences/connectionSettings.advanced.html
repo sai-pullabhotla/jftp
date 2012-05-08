@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Advanced</title>
+</head>
+<body>
+	<h1>Advanced</h1>
+	<p>
+		To view or change the advanced connection settings, open the
+		<code>Preferences</code>
+		dialog by selecting
+		<code>
+			Tools -&gt; Preferences (
+			<code>JFTP -&gt; Preferences</code>
+			on Mac OS X)
+		</code>
+		menu item from the menu bar. Click on the
+		<code>Connection Settings -&gt; Advanced</code>
+		category in the left frame. This will display the existing advanced
+		connection settings.
+	</p>
+	<p>
+		<code>Default FTP Client</code>
+		<br> Select the FTP client that you would like to use as the
+		default FTP client. This drop-down box contains a list of all
+		installed FTP clients. You can see the list by clicking on the down
+		arrow of the drop-down box. The default installation of JFTP comes
+		with two different clients:
+	<ul>
+		<li><code>Default FTP Client</code></li>
+		<li><code>AS/400 FTP Client</code></li>
+	</ul>
+	<p>
+		The
+		<code>Default FTP Client</code>
+		works well with most FTP servers. The
+		<code>AS/400 FTP Client</code>
+		is specifically designed for working with AS/400 FTP servers.
+	</p>
+	</p>
+	<p>
+		<code>Default List Parser</code>
+		<br> Select a list parser that you would like to use as the
+		default list parser. This drop-down box contains a list of all
+		installed list parsers. A list parser is a small program used to parse
+		the directory listing produced by an FTP server in response to the
+		LIST command. The default installation of JFTP comes with the
+		following two list parsers:
+	<ul>
+		<li><code>Default List Parser (UNIX)</code></li>
+		<li><code>MS-DOS List Parser</code></li>
+	</ul>
+	<p>
+		The
+		<code>Default List Parser</code>
+		works well with most FTP servers that produce UNIX style directory
+		listing. The
+		<code>MS-DOS List Parser</code>
+		is used to parse the DOS/Windows style directory listing.
+	</p>
+	</p>
+	<p>
+		<code>Transfer Data in Passive Mode</code>
+		<br> To transfer a file using FTP, a data connection needs to be
+		established between your PC and the FTP site. The data connection can
+		be opened in either active or passive modes. In the active mode, the
+		FTP site establishes the data connection to your PC (client). In the
+		passive mode, the PC establishes a connection to the FTP site. The
+		passive mode is helpful if you are behind a firewall and your firewall
+		does not accept incoming connections from computers outside of your
+		network. Check this box if you want to use
+		<code>Passive</code>
+		mode as the default data transfer mode. Uncheck this to use
+		<code>Active</code>
+		mode as the default data transfer mode.
+	</p>
+	<p>
+		<code>Default Buffer Size</code>
+		<br> Buffering is used to improve the performance when reading
+		data from or writing data to files. Specify the buffer size to use
+		while uploading or downloading files. The default installation sets
+		this value to 64 Kilo Bytes.
+	</p>
+	<p>
+		<code>Default Timeout</code>
+		<br> Specify the timeout in minutes. Timeout may be defined as
+		the maximum time that JFTP waits for a server response. If no data is
+		received in the specified amount of time, JFTP will disconnect from
+		the FTP server. The default value of timeout is set to 5 minutes.
+	</p>
+	<p>
+		When you are done, click on the
+		<code>Save</code>
+		button to save all your changes. This would also close the
+		<code>Preferences</code>
+		dialog.
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</body>
+</html>

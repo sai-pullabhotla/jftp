@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Setting up Filters</title>
+</head>
+<body>
+	<h1>Setting up Filters</h1>
+	<p>Another useful feature of JFTP is the ability to filter local
+		files when performing various tasks. You can filter local files based
+		on their name pattern, by their modification date and/or by their
+		attributes. The filter will be honored by all local file tasks such as
+		browsing, uploading, deleting, zipping and viewing properties.</p>
+	<p>Below are a few scenarios where filters can be very handy:</p>
+	<ul>
+		<li>Assume that, you have modified quite a few pages on your web
+			site and you know that you have modified only HTML files. In this
+			case, you can set up a name filter that allows only HTML files and
+			upload your entire web site with out having to pick the modified
+			files in various folders. When you do the upload, JFTP recurs through
+			your web site and uploads only HTML files ignoring other files such
+			as images, movies etc. thus, saving you time and bandwidth.</li>
+		<li>Another example is if you want to upload all files that were
+			modified today. In this case you can set up a date filter that allows
+			only those files whose modification date is today's date.</li>
+		<li>Or even better, you can set up a filter that combines both
+			name and date filters.</li>
+	</ul>
+	<p>To set up a filter on the local files, do any one of the
+		following:</p>
+	<ul>
+		<li>Select <code>Local File -&gt; Apply Filter...</code> menu
+			item from the menu bar
+		</li>
+		<li>Right click (Ctrl + click on Mac OS X) any where in the <a
+			href="../userInterface/localPane.html">local pane</a> and select <code>Apply
+				Filter...</code> from the context menu
+		</li>
+	</ul>
+	<p>
+		When you do any of the above actions, a new dialog titled
+		<code>Filter Local Files</code>
+		will be displayed.
+	</p>
+	<h2 align="left">Filter by Name</h2>
+	<p>
+		<code>Regular Expression</code>
+		<br> The name filter allows you to specify a filter based on the
+		file names or name patterns. You can specify any valid <strong><em>regular
+				expression</em></strong> as your filter criteria.
+	</p>
+	<p align="left">Below are a few commonly used regular expressions:
+	</p>
+	<ul>
+		<li><code>.*\.html</code> matches all files with extension <em><strong>html</strong></em>.
+		</li>
+		<li><code>n.*</code> matches all files that start with letter '<em><strong>n</strong></em>'.
+		</li>
+		<li><code>.*\.html|.*\.jsp</code> matches all files with
+			extensions <em><strong>html</strong></em> and <em><strong>jsp</strong></em>.
+		</li>
+		<li><code>index.html</code> matches all files whose name is <em><strong>index.html</strong></em>.
+		</li>
+	</ul>
+	<p>
+		<code>Case Sensitive</code>
+		<br> Checking this check box does a case sensitive pattern
+		matching. This means that the regular expression
+		<code>.*\.html</code>
+		will match <em><strong>index.html</strong></em> but not <em><strong>INDEX.HTML</strong></em>.
+	</p>
+	<h2>Filter by Date</h2>
+	<p>The date filter allows you to see only those files whose
+		modification date is in a given date range.</p>
+	<p>
+		<code>Start</code>
+		<br> Start date for this filter.
+	</p>
+	<p>
+		<code>End</code>
+		<br> End date for this filter.
+	</p>
+	<p class="tip">
+		<img src="../images/tip32.gif" width="32" height="32">If you
+		want to set up a filter that allows only files modified after a
+		specific date, just specify the
+		<code>Start</code>
+		date and leave the
+		<code>End</code>
+		date blank. Similarly, to allow files that were modified before a
+		specific date, leave the
+		<code>Start</code>
+		date blank and specify the
+		<code>End</code>
+		date.
+	</p>
+	<h2>Filter by Attributes</h2>
+	<p>
+		<code>Show Hidden Files and Folders</code>
+		<br> Check this box to allow hidden files and folders pass
+		through this filter.
+	</p>
+	<p class="note">
+		<img src="../images/note32.gif" width="32" height="32">All newly
+		opened sessions will have a default filter that hides hidden files and
+		folders. If you want to see all hidden files and folders, select
+		<code>Local System -&gt; Clear Filter</code>
+		menu item from the menu bar.
+	</p>
+	<p>
+		<code>Apply</code>
+		<br> Clicking this button will validate your filter criteria and
+		sets up a filter. At this point, all FTP and local file tasks that you
+		perform will honor the filter.
+	</p>
+	<p>
+		<code>Cancel</code>
+		<br> Clicking this button discards any changes you have made to
+		the filter criteria and closes the Filter Local Files dialog.
+	</p>
+	<p>
+		<code>Help</code>
+		<br> Click this button to display this help topic.
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</body>
+</html>

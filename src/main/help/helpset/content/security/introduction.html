@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="Generator"
+	content="Port80 Eclipse HTML Editor Plugin; 12/20/2002">
+<link rel="stylesheet" type="text/css" href="../default.css">
+<title>Introduction to SSL (Secured Sockets Layer)</title>
+</head>
+<body>
+	<h1>Introduction to SSL (Secured Sockets Layer)</h1>
+	<h2>Overview</h2>
+	<p>Secure Sockets Layer (SSL) is the most widely used protocol for
+		implementing cryptography on the Web. SSL uses a combination of
+		cryptographic processes to provide secure communication over a
+		network. This section provides an introduction to SSL and the
+		cryptographic processes it uses.</p>
+	<p>SSL was developed by Netscape in 1994, and with input from the
+		Internet community, has evolved to become a standard. It is now under
+		the control of the international standards organization, the Internet
+		Engineering Task Force (IETF). The IETF has renamed SSL to Transport
+		Layer Security (TLS), and released the first specification, version
+		1.0, in January 1999. TLS 1.0 is a modest upgrade to the most recent
+		version of SSL, version 3.0. The differences between SSL 3.0 and TLS
+		1.0 are minor.</p>
+	<h2>Why Use SSL</h2>
+	<p>Transferring sensitive information over a network can be risky
+		due to the following three issues:</p>
+	<ul>
+		<li>You cannot always be sure that the entity with whom you are
+			communicating is really who you think it is.</li>
+		<li>Network data can be intercepted, so it is possible that it
+			can be read by an unauthorized third party, sometimes known as an
+			attacker.</li>
+		<li>If an attacker can intercept the data, the attacker may be
+			able to modify the data before sending it on to the receiver.</li>
+	</ul>
+	<p>SSL addresses each of these issues. It addresses the first issue
+		by optionally allowing each of two communicating parties to ensure the
+		identity of the other party in a process called authentication. Once
+		the parties are authenticated, SSL provides an encrypted connection
+		between the two parties for secure message transmission. Encrypting
+		the communication between the two parties provides privacy and
+		therefore addresses the second issue. The encryption algorithms used
+		with SSL include a secure hash function, which is similar to a
+		checksum. This ensures that data is not modified in transit. The
+		secure hash function addresses the third issue of data integrity.</p>
+	<p>The most obvious example of when you would use SSL is in an
+		e-commerce transaction. In an e-commerce transaction, it would be
+		foolish to assume that you can guarantee the identity of the server
+		with whom you are communicating. It would be easy enough for someone
+		to create a phony Web site promising great services if only you enter
+		your credit card number. SSL allows you, the client, to authenticate
+		the identity of the server. It also allows the server to authenticate
+		the identity of the client, although in Internet transactions, this is
+		seldom done.</p>
+	<p>Once the client and the server are comfortable with each other's
+		identity, SSL provides privacy and data integrity through the
+		encryption algorithms it uses. This allows sensitive information, such
+		as credit card numbers, to be transmitted securely over the Internet.
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</body>
+</html>
