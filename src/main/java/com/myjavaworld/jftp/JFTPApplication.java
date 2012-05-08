@@ -1,19 +1,17 @@
 /*
- * Created on Apr 14, 2003
- * Created by Sai Pullabhotla 
+ * Copyright 2012 jMethods, Inc. 
  *
- * This software is the confidential and proprietary information of the 
- * author, Sai Pullabhotla. You shall not disclose such Confidential 
- * Information and shall use it only in accordance with the terms of the 
- * license agreement you entered into with the author.
- *
- * THE AUTHOR MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY OF 
- * THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
- * PURPOSE, OR NON-INFRINGEMENT. THE AUTHOR SHALL NOT BE LIABLE FOR ANY DAMAGES
- * SUFFERED BY LICENSEE AS A RESULT OF USING, MODIFYING OR DISTRIBUTING
- * THIS SOFTWARE OR ITS DERIVATIVES.
- *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
 package com.myjavaworld.jftp;
 
@@ -21,7 +19,6 @@ import java.util.Locale;
 
 import javax.swing.UIManager;
 
-import com.myjavaworld.gui.SplashWindow;
 import com.myjavaworld.util.SystemUtil;
 
 /**
@@ -45,19 +42,20 @@ public class JFTPApplication {
 		} catch (Exception exp) {
 		}
 
-		SplashWindow splash = new SplashWindow(JFTPUtil.getIcon("splash.gif"));
-		splash.setVisible(true);
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-
-		splash.setVisible(false);
+		// SplashWindow splash = new
+		// SplashWindow(JFTPUtil.getIcon("splash.gif"));
+		// splash.setVisible(true);
+		// try {
+		// Thread.sleep(2000);
+		// } catch (InterruptedException e) {
+		// e.printStackTrace();
+		// }
+		//
+		// splash.setVisible(false);
 		jftp = new JFTP();
 
 		if (SystemUtil.isMac()) {
-			OSXAdapter2.enableFullScreenMode(jftp);
+			OSXAdapter.enableFullScreenMode(jftp);
 		}
 
 		jftp.setVisible(true);
@@ -69,19 +67,25 @@ public class JFTPApplication {
 	}
 
 	public void showAboutDialog() {
-		jftp.showAboutDialog();
+		if (jftp != null) {
+			jftp.showAboutDialog();
+		}
 	}
 
 	public void showPreferencesDialog() {
-		jftp.showPreferencesDialog();
+		if (jftp != null) {
+			jftp.showPreferencesDialog();
+		}
 	}
 
 	public void quit() {
-		jftp.exit();
+		if (jftp != null) {
+			jftp.exit();
+		}
 	}
 
 	private void registerForMacOSXEvents() {
-		OSXAdapter2.init(this);
+		OSXAdapter.init(this);
 	}
 
 }

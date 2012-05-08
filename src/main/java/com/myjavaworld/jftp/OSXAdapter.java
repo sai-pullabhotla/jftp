@@ -15,7 +15,7 @@ import java.lang.reflect.Proxy;
  * @author Sai Pullabhotla
  * 
  */
-public class OSXAdapter2 {
+public class OSXAdapter {
 
 	/**
 	 * A reference to the Mac OS X Application - com.apple.eawt.Application
@@ -63,7 +63,7 @@ public class OSXAdapter2 {
 	 *            a reference to the JFTPApplication
 	 */
 	public static void init(JFTPApplication jftpApplication) {
-		OSXAdapter2.jftpApplication = jftpApplication;
+		OSXAdapter.jftpApplication = jftpApplication;
 		createMacOSXApplication();
 		if (macOSXApplication == null) {
 			return;
