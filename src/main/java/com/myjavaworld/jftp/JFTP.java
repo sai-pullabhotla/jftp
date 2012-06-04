@@ -130,7 +130,7 @@ public class JFTP extends MFrame implements WindowListener, ActionListener,
 			}
 		}
 		setIconImage(JFTPUtil.getImage("jftp16.gif"));
-		showLicenseAgreement();
+		// showLicenseAgreement();
 		getContentPane().setLayout(new BorderLayout(0, 0));
 		setJMenuBar(prepareMenuBar());
 		addWindowListener(this);
