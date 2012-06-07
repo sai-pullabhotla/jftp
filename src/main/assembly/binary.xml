@@ -19,14 +19,6 @@
 	</formats>
 	<fileSets>
 		<fileSet>
-			<directory>${project.build.outputDirectory}/com/myjavaworld/jftp</directory>
-			<outputDirectory>/</outputDirectory>
-			<includes>
-				<include>jftp*.png</include>
-				<include>jftp.icns</include>
-			</includes>
-		</fileSet>
-		<fileSet>
 			<outputDirectory>/</outputDirectory>
 			<includes>
 				<include>*.txt</include>
