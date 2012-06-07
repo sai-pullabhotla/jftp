@@ -17,24 +17,25 @@
 		<format>dir</format>
 		<format>tar.gz</format>
 	</formats>
-	<files>
-		<file>
-			<source>LICENSE.txt</source>
+	<fileSets>
+		<fileSet>
+			<directory>${project.build.outputDirectory}/com/myjavaworld/jftp</directory>
 			<outputDirectory>/</outputDirectory>
-		</file>
-		<file>
-			<source>NOTICE.txt</source>
+			<includes>
+				<include>jftp*.png</include>
+				<include>jftp.icns</include>
+			</includes>
+		</fileSet>
+		<fileSet>
 			<outputDirectory>/</outputDirectory>
-		</file>
-		<file>
-			<source>${project.build.scriptSourceDirectory}/jftp.bat</source>
+			<includes>
+				<include>*.txt</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<directory>${project.build.scriptSourceDirectory}</directory>
 			<outputDirectory>/</outputDirectory>
 			<filtered>true</filtered>
-		</file>
-		<file>
-			<source>${project.build.scriptSourceDirectory}/jftp.sh</source>
-			<outputDirectory>/</outputDirectory>
-			<filtered>true</filtered>
-		</file>
-	</files>
+		</fileSet>
+	</fileSets>
 </assembly>
