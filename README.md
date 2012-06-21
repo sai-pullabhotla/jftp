@@ -43,9 +43,9 @@ JFTP integrates the most widely used and widely accepted security mechanism,
 SSL (Secured Sockets Layer), to securely transfer your business critical and 
 sensitive data.
 
-* Support for SSL 3.0 and TLS 1.0
-* Supports several cryptographic algorithms such as RSA, RC4, DES, Triple DES, 
-  Diffie-Hellman and DSA
+* Support for SSL 3.0 and TLS 1.0, 1.1 and 1.2
+* Supports several cryptographic algorithms such as RSA, AES, RC4, DES, Triple 
+  DES, Diffie-Hellman and DSA
 * Support for both Explicit and Implicit SSL connections
 * Option of using SSL if it is supported by the FTP server
 
