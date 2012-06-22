@@ -23,8 +23,8 @@ public interface JFTPConstants {
 	public static final String PRODUCT_CODE = "jftp";
 	public static final String PRODUCT_NAME = "JFTP";
 	public static final String PRODUCT_DESCRIPTION = "The Universal FTP Client";
-	public static final String PRODUCT_VERSION = "5.0";
-	public static final String PRODUCT_BUILD = "20120425";
+	public static final String PRODUCT_VERSION = "5.0.0";
+	public static final String PRODUCT_BUILD = "20120622";
 	public static final String AUTHOR_NAME = "Sai Pullabhotla";
 	public static final String AUTHOR_EMAIL = "psai@jMethods.com";
 	public static final String PRODUCT_WEBSITE = "http://www.jMethods.com";
