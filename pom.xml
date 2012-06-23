@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.myjavaworld</groupId>
 	<artifactId>jftp</artifactId>
-	<version>5.0.1-SNAPSHOT</version>
+	<version>5.0.1</version>
 	<name>jftp</name>
 	<description>The Universal FTP Client</description>
 	<url>http://www.jMethods.com</url>
@@ -48,7 +48,7 @@
 	<scm>
 		<connection>scm:git:https://spullabhotla@github.com/jftp.git</connection>
 		<developerConnection>scm:git:git@github.com:spullabhotla/jftp.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>jftp-5.0.1</tag>
 	</scm>
 	<distributionManagement>
 		<repository>
