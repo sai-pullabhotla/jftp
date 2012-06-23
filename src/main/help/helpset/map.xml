@@ -115,7 +115,7 @@
 
 	<mapID target="keyboardShortcuts" url="content/keyboardShortcuts/index.html" />
 
-	<mapID target="licenseAgreement" url="content/license.html" />
+	<mapID target="licenseAgreement" url="content/LICENSE.txt" />
 	<mapID target="tips" url="content/tips.html" />
 	<mapID target="feedback" url="content/feedback.html" />
 	<mapID target="faq" url="content/faq.html" />
