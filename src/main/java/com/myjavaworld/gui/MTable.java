@@ -21,11 +21,8 @@ import java.awt.event.MouseEvent;
 import java.util.Vector;
 
 import javax.swing.JTable;
-import javax.swing.ListSelectionModel;
 import javax.swing.UIManager;
 import javax.swing.table.TableModel;
-
-import com.myjavaworld.util.SystemUtil;
 
 /**
  * An extension of <code>javax.swing.JTable</code> with some additional/modified
@@ -123,16 +120,25 @@ public class MTable extends JTable {
 
 	@Override
 	protected void processMouseEvent(MouseEvent evt) {
-		if (SystemUtil.isMac()) {
-			workaroundMacPopupIssue(evt);
-		} else if (evt.isPopupTrigger()) {
-			windowsWorkAround(evt);
+		if (evt.isPopupTrigger()) {
+			processPopupTrigger(evt);
 		} else {
 			super.processMouseEvent(evt);
 		}
 	}
 
-	private void windowsWorkAround(MouseEvent evt) {
+	/**
+	 * Processes the event on which the context menu is to be displayed. If the
+	 * event occurs on any one of the selected rows, that selection will be
+	 * preserved and the context menu will be displayed. If the event occurs on
+	 * a row that is not already selected, any previous selections will be
+	 * cleared and the row on which the event has occurred will be selected. If
+	 * the event occurs at a place where there is no row, the selection will be
+	 * cleared and the context menu will be displayed.
+	 * 
+	 * @param evt
+	 */
+	private void processPopupTrigger(MouseEvent evt) {
 		int row = rowAtPoint(evt.getPoint());
 		if (row >= 0) {
 			if (!isRowSelected(row)) {
@@ -143,20 +149,5 @@ public class MTable extends JTable {
 			clearSelection();
 		}
 		super.processMouseEvent(evt);
-	}
-
-	private void workaroundMacPopupIssue(MouseEvent evt) {
-		int[] selectedRows = getSelectedRows();
-		int row = rowAtPoint(evt.getPoint());
-		ListSelectionModel model = getSelectionModel();
-		if (model.isSelectedIndex(row)) {
-			super.processMouseEvent(evt);
-			model.clearSelection();
-			for (int i = 0; i < selectedRows.length; i++) {
-				model.addSelectionInterval(selectedRows[i], selectedRows[i]);
-			}
-		} else {
-			super.processMouseEvent(evt);
-		}
 	}
 }
